@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <p>Hello</p>
+      <p>New with Toggle</p>
       <button onClick={onToggleButton}>Toggle</button>
     </div>
   );
