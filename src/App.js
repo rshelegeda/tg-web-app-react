@@ -9,7 +9,6 @@ function App() {
 
   useEffect(() => {
     console.log('UseEffect');
-    tg.ready();
     
   }, []);
 
