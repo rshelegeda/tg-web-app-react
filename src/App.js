@@ -13,7 +13,7 @@ function App() {
     
   }, []);
 
-
+// The new comments
 
   return (
     <div className="App">
