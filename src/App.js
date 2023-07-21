@@ -1,6 +1,9 @@
+import React from 'react';
 import { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from './hooks/useTelegram';
+import Button from 'react-bootstrap/Button';
+
 
 function App() {
 
@@ -18,8 +21,9 @@ function App() {
   return (
     <div className="App">
       <p>New with Toggle</p>
-      <button onClick={onToggleButton}>Toggle</button>
-      <button onClick={onClose}>Close</button>
+      <Button onClick={onToggleButton}>Toggle</Button>
+      <Button onClick={onClose}>Close</Button>
+      
     </div>
   );
 }
