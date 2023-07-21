@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from './hooks/useTelegram';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 
 
@@ -23,7 +24,6 @@ function App() {
       <p>New with Toggle</p>
       <Button onClick={onToggleButton}>Toggle</Button>
       <Button onClick={onClose}>Close</Button>
-      
     </div>
   );
 }
